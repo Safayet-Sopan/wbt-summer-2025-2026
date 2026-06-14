@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post">
+        <fieldset>
+            <legend>Contact Me:</legend>
+
+            <table>
+                <tr>
+                    <td><label for="firstName">First Name:</label></td>
+                    <td><input type="text" id="firstName" placeholder="Enter your first name" name="firstName" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="lastName">Last Name:</label></td>
+                    <td><input type="text" id="lastName" placeholder="Enter your last name" name="lastName" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="gender">Gender:</label></td>
+                    <td>
+                        <input type="radio" name="gender" value="male">Male
+                        <input type="radio" name="gender" value="female">Female
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" placeholder="Enter your email" required></td>
+                </tr>
+            </table>
+        </fieldset>
+
+    <br>
+
+        <fieldset>
+            <legend>Services:</legend>
+
+            <table>
+                <tr>
+                    <td>
+                        <input type="checkbox" value="webDev">Web Development <br>
+                        <input type="checkbox" value="aiMl">AI / ML <br>
+                        <input type="checkbox" value="backend">Backend <br>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+    <br>
+
+        <fieldset>
+            <Legend>Reason of Contact:</Legend>
+
+            <table>
+                <tr>
+                    <td>
+                        <select name="reasonOfContact" id="reasonOfContact">
+                            <option value="pleaseSelect">Please Select</option>
+                            <option value="job">Job</option>
+                            <option value="projects">Projects</option>
+                            <option value="thesis">Thesis</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+    <br>
+
+        <fieldset>
+            <legend>Book Slot:</legend>
+
+            <table>
+                <tr>
+                    <td><label for="date">Select a Date:</label></td>
+                    <td><input type="date" name="bookingDate" id="bookingDate" required></td>
+                </tr>
+            </table>
+        </fieldset>
+
+    <br>
+
+    <input type="submit">
+    <input type="reset">
+
+    </form>
+
+</body>
+</html>

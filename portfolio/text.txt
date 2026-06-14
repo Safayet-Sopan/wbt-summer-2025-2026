@@ -1,0 +1,21 @@
+Contact Me Page -----------------------------
+Contact Me: Fieldset
+First Name:
+Last Name:
+Gender:
+Email:
+
+Services: Fieldset
+Web Development
+AI/ML
+Backend
+
+Reason of Contact: Fieldset
+Job
+Projects
+Thesis
+
+Book Slot: Fieldset
+Date
+Submit Reset
+--------------------------------------------
